@@ -1,0 +1,4 @@
+interface:
+  display_name: "All-profile"
+  short_description: "Audit, write, and safely update social profiles"
+  default_prompt: "Use $all-profile to review my social profiles and prepare evidence-backed improvements."

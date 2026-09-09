@@ -1,0 +1,14 @@
+# Client work belongs outside this source package.
+.work/
+client-work/
+outputs/
+accounts/
+.env
+.env.*
+*.pem
+*.key
+*.xlsx
+*.bak
+__pycache__/
+*.pyc
+.DS_Store
