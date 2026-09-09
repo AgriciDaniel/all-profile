@@ -1,8 +1,9 @@
 ---
 name: all-profile
 description: Audit, write, and update social profiles across LinkedIn, YouTube, Instagram, TikTok, and X. Covers bios, headlines, About sections, YouTube channel descriptions, links, evidence-backed positioning, and verification of approved live edits. Use for one profile or cross-platform consistency, not post or video descriptions, content calendars, account-ban investigations, or repository descriptions.
+license: MIT
 metadata:
-  version: "0.1.0-beta.1"
+  version: "0.1.0-beta.2"
 ---
 
 # All-profile

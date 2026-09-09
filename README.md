@@ -41,7 +41,7 @@ The skill does not include a browser, manage passwords, or require a paid API. N
 
 ### Install for a Codex project
 
-1. Download this repository, or the `all-profile-skill-v0.1.0-beta.1.zip` file from the [release](https://github.com/AgriciDaniel/all-profile/releases/tag/v0.1.0-beta.1).
+1. Download this repository, or the `all-profile-skill-v0.1.0-beta.2.zip` file from the [release](https://github.com/AgriciDaniel/all-profile/releases/tag/v0.1.0-beta.2).
 2. Copy the entire `all-profile` skill folder into `.agents/skills/` inside the project where you use Codex. In this repository, that folder is `skills/all-profile`. In the skill ZIP, it is `all-profile`.
 3. Check that the resulting path is `.agents/skills/all-profile/SKILL.md`, with its supporting folders beside it.
 4. Open Codex in that project and select the skill, or mention `$all-profile` in Codex CLI or the IDE extension. Restart Codex if it does not appear.
@@ -118,8 +118,8 @@ Python 3.9 or later is needed only for the optional text counter and these local
 
 ## About this release
 
-**v0.1.0-beta.1** is the first preview, initially shared in a private repository. It packages lessons from a five-platform profile project, including research, writing revisions, recorded setup, and verification. Personal account records, screenshots, and private workspace files are excluded.
+**v0.1.0-beta.2** is the first public beta, following a private preview. It packages lessons from a five-platform profile project, including research, writing revisions, recorded setup, and verification. Personal account records, screenshots, and private workspace files are excluded.
 
-See the [release notes](docs/releases/v0.1.0-beta.1.md), [change history](CHANGELOG.md), and [contribution guide](CONTRIBUTING.md). Method inspiration is credited in the [evidence and copy guide](skills/all-profile/references/evidence-and-copy.md).
+See the [release notes](docs/releases/v0.1.0-beta.2.md), [change history](CHANGELOG.md), and [contribution guide](CONTRIBUTING.md). Method inspiration is credited in the [evidence and copy guide](skills/all-profile/references/evidence-and-copy.md).
 
-**License:** not selected yet. This preview does not grant an open-source license. Licensing will be decided before a public release.
+**License:** the skill, code, and documentation are available under the [MIT License](LICENSE). The cover artwork, portrait, and third-party branding are excluded; see [artwork and branding](assets/README.md).

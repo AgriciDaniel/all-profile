@@ -16,4 +16,4 @@ python3 -m unittest discover -s tests -v
 
 The tests need Python 3.9 or later and no extra packages. For instruction changes, also try the relevant [behavioral cases](tests/behavioral-cases.md) using fictional inputs. Record what was actually tested; a mock result is not a live-platform result.
 
-This repository begins as a private preview. Contribution and redistribution terms will be finalized with the license before public release.
+The skill, code, and documentation are MIT-licensed. Contributions to those files are provided under the same license. The cover artwork and third-party branding are excluded; see [artwork and branding](assets/README.md).

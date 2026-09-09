@@ -1,13 +1,13 @@
 # Validation record
 
-Checked 2026-09-09. Verdict: ready for local use as a standalone skill candidate. Public release still requires a distribution-license decision and approval of the exact payload. No live-account reliability or performance claim is established.
+Checked 2026-09-09. Verdict: ready for a public beta with the limits below. MIT licensing and public release were approved on 2026-09-09. No live-account reliability or performance claim is established.
 
 ## Automated and native checks
 
 - Skill-creator format validator: passed.
 - Six Python unittest cases: passed. Five cover the character counter, including emoji, combining marks, CR/LF, empty input, trailing newline, and invalid UTF-8. One relocates the skill into an isolated project's `.agents/skills/all-profile` directory, checks its relative references remain self-contained, and executes the copied helper from outside the skill directory.
 - Codex CLI 0.153.4 app-server: a fresh process returned the copied skill exactly once from `skills/list`, with `scope: repo`, `enabled: true`, correct description, and correct UI metadata. No model turn or account access was needed for this discovery check.
-- Candidate content and relative links reviewed. No originating personal account data, copied screenshots, private absolute paths, or tested credential patterns found. Pattern scanning is bounded and does not guarantee absence of every possible secret.
+- Candidate content and relative links reviewed. The skill package contains no originating personal account records, copied screenshots, private absolute paths, or tested credential patterns. The repository additionally includes the owner-approved promotional cover, with a portrait and illustrative profile content. Pattern scanning is bounded and does not guarantee absence of every possible secret.
 
 ## Independent evaluation
 
@@ -30,3 +30,9 @@ The mock's observed action sequence was `edit`, `paste-about`, `save`, `reload`,
 No real-account publishing, browser-rendered screenshot acceptance, mobile crop inspection, live destination opening, cross-host installation, or conversion measurement was performed. Not all scenarios in the behavioral catalog were executed. In particular, adversarial page injection and live field-limit rejection remain specifications, not demonstrated passes. The instruction correction was rechecked on the affected drafting task, not through a new blind run of the whole suite.
 
 Use the candidate with these boundaries. Recheck host discovery if installation conventions change, refresh platform requirements when applying the skill, and rerun affected tests after changes. Do not describe this record as proof of guaranteed outcomes or universal platform support.
+
+## Public beta packaging check · v0.1.0-beta.2
+
+The six tests were rerun for the public beta. The skill instructions and behavior are unchanged from the private preview apart from license and version metadata. MIT license text is included in both the repository and the standalone skill. The owner-approved cover is excluded from the MIT grant. The historical private-preview tag is retained; the new public-beta tag includes licensing and updated documentation.
+
+A bounded credential and private-path pattern scan of Git history found no matches before publication. The release ZIP was inspected and its checksum verified. These packaging checks do not expand the behavioral or live-account coverage above.

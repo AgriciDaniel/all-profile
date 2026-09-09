@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.0-beta.2 · 2026-09-09
+
+First public beta.
+
+- Added MIT licensing for the skill, code, and documentation, including the standalone download.
+- Added the approved compressed cover and separate artwork terms.
+- Updated setup links and public-release documentation.
+- Retained the private-preview history and the existing beta limitations.
+- No changes to the profile workflow or new live-account claims.
+
+[Public beta release notes](docs/releases/v0.1.0-beta.2.md)
+
 ## v0.1.0-beta.1 · 2026-09-09
 
 First private preview of All-profile.
