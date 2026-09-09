@@ -106,7 +106,7 @@ It does not invent achievements, turn followers into customers, or promise highe
 - Four fictional writing and reconciliation tasks were evaluated.
 - A mocked setup test preserved the approved paragraphs and handled a save timeout without duplicate saving or unrelated changes.
 
-One writing issue found during evaluation was corrected and rechecked. The extracted skill has **not yet had an end-to-end trial on real social accounts**. Read the [validation record](tests/VALIDATION.md) for the exact coverage.
+One writing issue found during evaluation was corrected and rechecked. Read the [validation record](tests/VALIDATION.md) for the exact coverage.
 
 For contributors, local checks are simple:
 

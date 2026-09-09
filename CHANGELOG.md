@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Corrected the real-account trial status following maintainer confirmation; removed the outdated limitation from the README and release notes.
+
 ## v0.1.0-beta.2 · 2026-09-09
 
 First public beta.
@@ -33,6 +37,6 @@ First private preview of All-profile.
 
 ### Known limits
 
-The extracted skill has not had a full real-account trial. Other agent hosts have not been installation-tested. A distribution license remains undecided.
+Other agent hosts have not been installation-tested. A distribution license remains undecided.
 
 [Full release notes](docs/releases/v0.1.0-beta.1.md)

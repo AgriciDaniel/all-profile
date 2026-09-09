@@ -1,6 +1,6 @@
 # Validation record
 
-Checked 2026-09-09. Verdict: ready for a public beta with the limits below. MIT licensing and public release were approved on 2026-09-09. No live-account reliability or performance claim is established.
+Checked 2026-09-09. Verdict: ready for a public beta with the limits below. MIT licensing and public release were approved on 2026-09-09. Completion of a real-account trial is confirmed by the maintainer, as recorded below. This does not establish universal reliability or performance outcomes.
 
 ## Automated and native checks
 
@@ -25,9 +25,13 @@ The static reviewer found no substantive workflow blocker. Two routing improveme
 
 The mock's observed action sequence was `edit`, `paste-about`, `save`, `reload`, `public`. The reviewer independently checked its final state and action log. This verifies the agent's behavior under that fixture; it does not verify a real social platform. The alternate text-setter flattening path was available but not exercised because the evaluator chose plain-text paste directly.
 
+## Real-account trial
+
+On 2026-09-09, the maintainer confirmed that the skill has completed a real-account trial. This confirmation is separate from the independent fictional and mocked evaluations above. The trial was not independently rerun during this documentation correction.
+
 ## Coverage limits
 
-No real-account publishing, browser-rendered screenshot acceptance, mobile crop inspection, live destination opening, cross-host installation, or conversion measurement was performed. Not all scenarios in the behavioral catalog were executed. In particular, adversarial page injection and live field-limit rejection remain specifications, not demonstrated passes. The instruction correction was rechecked on the affected drafting task, not through a new blind run of the whole suite.
+The independent evaluation described above did not include real-account publishing, browser-rendered screenshot acceptance, mobile crop inspection, live destination opening, cross-host installation, or conversion measurement. Not all scenarios in the behavioral catalog were executed. In particular, adversarial page injection and live field-limit rejection remain specifications, not demonstrated passes. The instruction correction was rechecked on the affected drafting task, not through a new blind run of the whole suite.
 
 Use the candidate with these boundaries. Recheck host discovery if installation conventions change, refresh platform requirements when applying the skill, and rerun affected tests after changes. Do not describe this record as proof of guaranteed outcomes or universal platform support.
 
