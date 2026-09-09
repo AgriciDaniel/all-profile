@@ -1,5 +1,7 @@
 # All-profile
 
+![All-profile: audit, write, and set up clear, credible social profiles, illustrated with a before-and-after comparison.](assets/all-profile-cover.jpg)
+
 **Make your social profiles say what you do, show why it matters, and guide people to the right next step.**
 
 All-profile is an AI agent skill for improving your **LinkedIn, YouTube, Instagram, TikTok, and X** profiles. It helps turn your actual work into clear bios, headlines, descriptions, and links. When you approve the changes and your agent has account access, it can also apply them and check what saved.
